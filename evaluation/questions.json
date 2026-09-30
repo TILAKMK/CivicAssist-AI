@@ -1,0 +1,127 @@
+[
+  {
+    "id": "q01_building_license",
+    "question": "What documents are required for a building license application?",
+    "category": "services",
+    "expected_source": "application_procedures",
+    "expected_keywords": [
+      "document",
+      "plan",
+      "license",
+      "title",
+      "sanction"
+    ]
+  },
+  {
+    "id": "q02_waste_collection",
+    "question": "What is the schedule for door-to-door dry waste and wet waste collection?",
+    "category": "waste",
+    "expected_source": "waste_management",
+    "expected_keywords": [
+      "waste",
+      "wet",
+      "dry",
+      "collection",
+      "schedule"
+    ]
+  },
+  {
+    "id": "q03_property_tax_rebate",
+    "question": "What is the deadline for availing property tax early payment rebate?",
+    "category": "property",
+    "expected_source": "property_tax",
+    "expected_keywords": [
+      "tax",
+      "rebate",
+      "property",
+      "payment",
+      "discount"
+    ]
+  },
+  {
+    "id": "q04_birth_certificate",
+    "question": "How can a citizen apply for a birth certificate and what is the registration time limit?",
+    "category": "services",
+    "expected_source": "birth_death",
+    "expected_keywords": [
+      "birth",
+      "certificate",
+      "hospital",
+      "days",
+      "registration"
+    ]
+  },
+  {
+    "id": "q05_trade_license_renewal",
+    "question": "What is the procedure and mandatory document list for renewing an annual municipal trade license?",
+    "category": "trade_license",
+    "expected_source": "trade_license",
+    "expected_keywords": [
+      "trade",
+      "license",
+      "renewal",
+      "receipt",
+      "fee"
+    ]
+  },
+  {
+    "id": "q06_water_connection",
+    "question": "What steps are required to get a new domestic water supply and UGD connection?",
+    "category": "services",
+    "expected_source": "water_connection",
+    "expected_keywords": [
+      "water",
+      "connection",
+      "drainage",
+      "application",
+      "pipeline"
+    ]
+  },
+  {
+    "id": "q07_emergency_helpline",
+    "question": "What is the 24x7 municipal emergency control room number for flood and fallen tree complaints?",
+    "category": "emergency",
+    "expected_source": "emergency_helplines",
+    "expected_keywords": [
+      "control",
+      "room",
+      "helpline",
+      "emergency",
+      "phone"
+    ]
+  },
+  {
+    "id": "q08_ward_committee_meeting",
+    "question": "When are the monthly ward committee citizen grievance meetings conducted?",
+    "category": "events",
+    "expected_source": "events",
+    "expected_keywords": [
+      "ward",
+      "meeting",
+      "committee",
+      "grievance",
+      "citizen"
+    ]
+  },
+  {
+    "id": "q09_khata_transfer",
+    "question": "What are the required documents for Khata transfer after property purchase?",
+    "category": "property",
+    "expected_source": "property",
+    "expected_keywords": [
+      "khata",
+      "transfer",
+      "deed",
+      "sale",
+      "tax"
+    ]
+  },
+  {
+    "id": "q10_out_of_scope",
+    "question": "Can you give me a recipe for chocolate cake?",
+    "category": "unrelated",
+    "expected_source": null,
+    "expected_keywords": [],
+    "should_reject": true
+  }
+]

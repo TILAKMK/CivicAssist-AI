@@ -1,0 +1,58 @@
+[
+  {
+    "filename": "TODO_wards_data.csv",
+    "source_url": "unknown",
+    "category": "wards",
+    "date_collected": "unknown",
+    "status": "pending_upload",
+    "description": "TODO: Place municipal ward boundaries, ward numbers, councilor contacts, and zone mappings here."
+  },
+  {
+    "filename": "TODO_services_procedures.pdf",
+    "source_url": "unknown",
+    "category": "services",
+    "date_collected": "unknown",
+    "status": "pending_upload",
+    "description": "TODO: Place official citizen charters, birth and death certificate registration SOPs, water and UGD connections documentation here."
+  },
+  {
+    "filename": "TODO_waste_management_guidelines.txt",
+    "source_url": "unknown",
+    "category": "waste",
+    "date_collected": "unknown",
+    "status": "pending_upload",
+    "description": "TODO: Place solid waste management rules, door-to-door garbage collection schedules, segregation norms (wet/dry/sanitary) here."
+  },
+  {
+    "filename": "TODO_property_tax_faq.json",
+    "source_url": "unknown",
+    "category": "property",
+    "date_collected": "unknown",
+    "status": "pending_upload",
+    "description": "TODO: Place Self Assessment Scheme (SAS) property tax calculation, payment deadlines, rebate information, and Khata transfer procedures here."
+  },
+  {
+    "filename": "TODO_trade_license_rules.pdf",
+    "source_url": "unknown",
+    "category": "trade_license",
+    "date_collected": "unknown",
+    "status": "pending_upload",
+    "description": "TODO: Place trade license application rules, fee schedule, mandatory documents, and renewal deadlines here."
+  },
+  {
+    "filename": "TODO_emergency_helplines.csv",
+    "source_url": "unknown",
+    "category": "emergency",
+    "date_collected": "unknown",
+    "status": "pending_upload",
+    "description": "TODO: Place municipal control room numbers, disaster management contacts, flood helpline, street light complaint desk numbers here."
+  },
+  {
+    "filename": "TODO_public_events.json",
+    "source_url": "unknown",
+    "category": "events",
+    "date_collected": "unknown",
+    "status": "pending_upload",
+    "description": "TODO: Place town hall meetings, ward committee meeting schedules, vaccination camps, and public hearings here."
+  }
+]

@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: 3 84 162;
+    --primary-dark: 12 61 111;
+    --accent-teal: 13 148 136;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased font-sans;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}
+
+/* Glassmorphism & Civic utilities */
+.civic-card {
+  @apply bg-white border border-slate-200/80 rounded-xl shadow-sm transition-all duration-200 hover:shadow-md hover:border-civic-200;
+}
+
+.civic-gradient-badge {
+  @apply bg-gradient-to-r from-civic-50 to-teal-50/50 border border-civic-200/60 text-civic-800;
+}
+
+.civic-hero-gradient {
+  background: radial-gradient(circle at 50% 0%, rgba(12, 135, 235, 0.08) 0%, rgba(248, 250, 252, 0) 70%);
+}
+
+/* Leaflet map container */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+  z-index: 10;
+}

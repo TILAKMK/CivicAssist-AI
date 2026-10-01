@@ -42,14 +42,6 @@ pip install -r requirements.txt
 Copy-Item .env.example .env
 ```
 
-Add at least one provider key to `.env`:
-
-```env
-GROQ_API_KEY=your_groq_api_key_here
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-Never commit `.env`. It is excluded by `.gitignore`.
 
 ### Frontend
 

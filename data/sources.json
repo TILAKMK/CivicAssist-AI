@@ -1,58 +1,82 @@
 [
   {
-    "filename": "TODO_wards_data.csv",
-    "source_url": "unknown",
+    "filename": "mysuru_corporators_contact.csv",
+    "source_url": "https://data.opencity.in/dataset/mysuru-city-corporation-wards-info/resource/6bf69ec4-0072-4564-8491-2e7d460429b9",
     "category": "wards",
-    "date_collected": "unknown",
-    "status": "pending_upload",
-    "description": "TODO: Place municipal ward boundaries, ward numbers, councilor contacts, and zone mappings here."
+    "date_collected": "2026-09-30",
+    "status": "downloaded",
+    "description": "Mysuru City Corporation corporators contact dataset, published through OpenCity."
   },
   {
-    "filename": "TODO_services_procedures.pdf",
-    "source_url": "unknown",
+    "filename": "mysuru_street_names_by_ward.csv",
+    "source_url": "https://data.opencity.in/dataset/mysuru-city-corporation-wards-info/resource/fc9af586-5eef-46f6-8667-0247d8b0ab23",
+    "category": "wards",
+    "date_collected": "2026-09-30",
+    "status": "downloaded",
+    "description": "Mysuru City Corporation street names by ward dataset, published through OpenCity."
+  },
+  {
+    "filename": "mysuru_ward_population_census_2011.csv",
+    "source_url": "https://data.opencity.in/dataset/mysuru-city-corporation-wards-info/resource/e117aae6-19b0-4247-9fb8-36fe3614f7e6",
+    "category": "wards",
+    "date_collected": "2026-09-30",
+    "status": "downloaded",
+    "description": "Mysuru ward population Census 2011 dataset, published through OpenCity."
+  },
+  {
+    "filename": "mcc_application_procedures.txt",
+    "source_url": "https://mysurucitycorporation.co.in/WebSiteMysuru/ApplicationProcedures.aspx",
     "category": "services",
-    "date_collected": "unknown",
-    "status": "pending_upload",
-    "description": "TODO: Place official citizen charters, birth and death certificate registration SOPs, water and UGD connections documentation here."
+    "date_collected": "2026-09-30",
+    "status": "downloaded",
+    "description": "Source-attributed snapshot of public application categories shown on the official MCC page."
   },
   {
-    "filename": "TODO_waste_management_guidelines.txt",
-    "source_url": "unknown",
-    "category": "waste",
-    "date_collected": "unknown",
-    "status": "pending_upload",
-    "description": "TODO: Place solid waste management rules, door-to-door garbage collection schedules, segregation norms (wet/dry/sanitary) here."
-  },
-  {
-    "filename": "TODO_property_tax_faq.json",
-    "source_url": "unknown",
+    "filename": "mcc_property_tax_procedures.txt",
+    "source_url": "https://mysurucitycorporation.co.in/WebSiteMysuru/UserManual.aspx",
     "category": "property",
-    "date_collected": "unknown",
-    "status": "pending_upload",
-    "description": "TODO: Place Self Assessment Scheme (SAS) property tax calculation, payment deadlines, rebate information, and Khata transfer procedures here."
+    "date_collected": "2026-09-30",
+    "status": "downloaded",
+    "description": "Public property-tax payment instructions from the official MCC manual and property-search pages."
   },
   {
-    "filename": "TODO_trade_license_rules.pdf",
-    "source_url": "unknown",
+    "filename": "mcc_trade_license_procedures.txt",
+    "source_url": "https://mysurucitycorporation.co.in/WebSiteMysuru/NewTradeLicence.aspx",
     "category": "trade_license",
-    "date_collected": "unknown",
-    "status": "pending_upload",
-    "description": "TODO: Place trade license application rules, fee schedule, mandatory documents, and renewal deadlines here."
+    "date_collected": "2026-09-30",
+    "status": "downloaded",
+    "description": "Public trade-license search fields, application fields, and upload constraints from official MCC pages."
   },
   {
-    "filename": "TODO_emergency_helplines.csv",
-    "source_url": "unknown",
+    "filename": "mcc_helplines.txt",
+    "source_url": "https://mysurucitycorporation.co.in/WebSiteMysuru/helpline.aspx",
     "category": "emergency",
-    "date_collected": "unknown",
-    "status": "pending_upload",
-    "description": "TODO: Place municipal control room numbers, disaster management contacts, flood helpline, street light complaint desk numbers here."
+    "date_collected": "2026-09-30",
+    "status": "downloaded",
+    "description": "Public helpline entries transcribed from the official MCC helpline page."
   },
   {
-    "filename": "TODO_public_events.json",
-    "source_url": "unknown",
-    "category": "events",
-    "date_collected": "unknown",
-    "status": "pending_upload",
-    "description": "TODO: Place town hall meetings, ward committee meeting schedules, vaccination camps, and public hearings here."
+    "filename": null,
+    "source_url": "https://data.opencity.in/dataset/mysuru-city-corporation-wards-info/resource/d2542fba-3c2d-4f23-a622-7335e9088fd6",
+    "category": "wards",
+    "date_collected": "2026-09-30",
+    "status": "not_collected",
+    "description": "OpenCity ward KML resource returned 404 from its download endpoint; no fabricated replacement was created."
+  },
+  {
+    "filename": null,
+    "source_url": "https://nmfwastecollection.in/",
+    "category": "waste",
+    "date_collected": "2026-09-30",
+    "status": "not_collected",
+    "description": "The page did not expose extractable content during source inspection; no current schedule was fabricated."
+  },
+  {
+    "filename": null,
+    "source_url": "https://www.niti.gov.in/sites/default/files/2023-02/Waste-Wise-Cities.pdf",
+    "category": "waste",
+    "date_collected": "2026-09-30",
+    "status": "not_collected",
+    "description": "The PDF could not be extracted in this run and is historical; it was not presented as a current 2026 schedule."
   }
 ]

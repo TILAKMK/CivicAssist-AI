@@ -1,0 +1,15 @@
+SOURCE: https://mysurucitycorporation.co.in/WebSiteMysuru/helpline.aspx
+RETRIEVED_AT: 2026-09-30
+
+Official MCC helpline entries visible on the source page:
+- Ambulance: 108
+- DC Office Helpline: 1077
+- Police Helpline: 100
+- Child Helpline: 1098
+- Fire Helpline: 101
+- Women Helpline: 1091
+- Blood Bank: 1910
+- Railway Enquiry: 139
+- Crime Stopper: 1090
+
+These numbers are transcribed from the public MCC helpline page. Users should verify current contact details on the official source because public helplines can change.

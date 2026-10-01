@@ -41,7 +41,7 @@ export default function AIResponse({
   };
 
   const keyInfo = message.key_info;
-  const primarySource = message.sources && message.sources.length > 0 ? message.sources[0] : null;
+  const displayedSources = message.sources || [];
 
   return (
     <div className="space-y-2.5 max-w-3xl animate-slide-up">
@@ -181,19 +181,23 @@ export default function AIResponse({
             </span>
           </div>
 
-          {/* Primary Source Snippet + Button */}
-          {primarySource && (
-            <div className="flex items-center space-x-2">
-              <span className="text-[11px] text-slate-500 font-medium truncate max-w-[200px] sm:max-w-xs" title={primarySource.title}>
-                📚 {primarySource.title}
-              </span>
-              <button
-                onClick={() => onViewSource && onViewSource(primarySource)}
-                className="inline-flex items-center space-x-1 px-2.5 py-1 text-[11px] font-semibold text-civic-700 bg-civic-50 hover:bg-civic-100 border border-civic-200/70 rounded-md transition-colors shrink-0"
-              >
-                <span>View Source</span>
-                <ExternalLink className="w-3 h-3" />
-              </button>
+          {/* Source snippets and buttons for every cited source */}
+          {displayedSources.length > 0 && (
+            <div className="flex flex-wrap items-center gap-2">
+              {displayedSources.map((source) => (
+                <div key={source.id || source.title} className="flex items-center space-x-2">
+                  <span className="text-[11px] text-slate-500 font-medium truncate max-w-[200px] sm:max-w-xs" title={source.title}>
+                    📚 {source.title}
+                  </span>
+                  <button
+                    onClick={() => onViewSource && onViewSource(source)}
+                    className="inline-flex items-center space-x-1 px-2.5 py-1 text-[11px] font-semibold text-civic-700 bg-civic-50 hover:bg-civic-100 border border-civic-200/70 rounded-md transition-colors shrink-0"
+                  >
+                    <span>View Source</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </button>
+                </div>
+              ))}
             </div>
           )}
         </div>

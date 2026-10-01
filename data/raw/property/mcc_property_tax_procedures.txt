@@ -1,0 +1,20 @@
+SOURCE: https://mysurucitycorporation.co.in/WebSiteMysuru/UserManual.aspx
+SOURCE: https://mysurucitycorporation.co.in/WebSiteMysuru/PropertySearch.aspx
+SOURCE: https://mysurucitycorporation.co.in/WebSiteMysuru/Citizen.aspx
+RETRIEVED_AT: 2026-09-30
+
+Official MCC public property-tax payment instructions:
+1. Open the Online Services link.
+2. Select View Property Details and Pay Online.
+3. Select a search criterion.
+4. Search using Ward Number and Property Number, Ward Number and Owner Name, Ward Number and Mobile Number, or PID.
+5. Select Search to view the available property details.
+6. Select View to open the property history.
+7. Select View Tax & Pay.
+8. Verify the owner details and generated Form-I details.
+9. Agree to the terms and select a payment mode.
+10. Select Pay Online and confirm the PID, tax amount, mobile number, and email.
+11. Complete the payment gateway and OTP steps.
+12. After successful payment, use Print to obtain the payment receipt. The MCC manual says that if an e-receipt is not immediately received and the tax status remains Not Paid, wait 12 hours and then retrieve the e-receipt from the website.
+
+The PropertySearch page also says that users who do not know their PID can search by criteria such as layout, site number, Khata holder name, or mobile number. This dataset contains procedural instructions only and does not include private property-owner records.

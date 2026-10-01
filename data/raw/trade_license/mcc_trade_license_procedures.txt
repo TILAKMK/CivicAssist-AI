@@ -1,0 +1,22 @@
+SOURCE: https://mysurucitycorporation.co.in/WebSiteMysuru/TradeLicence.aspx
+SOURCE: https://mysurucitycorporation.co.in/WebSiteMysuru/NewTradeLicence.aspx
+RETRIEVED_AT: 2026-09-30
+
+The official MCC Trade Licence page provides a public search interface with fields for Ward, License ID, License Number, Firm Name, Applicant Name, and PID.
+
+The official MCC New Trade Licence page exposes public application fields including:
+- PID
+- Zone and Ward
+- Owner name and mobile number
+- Postal address
+- Applicant name and mobile number
+- Firm name
+- Applicant Aadhaar number
+- Shop size in square feet
+- Trade commencement and renewal dates
+- Property, survey, or Khata number
+- Licence type
+- Trade category and trade type
+- Trade fee and variable licence fee
+
+The page states that uploaded documents must be JPG, PNG, JPEG, or PDF files smaller than 3 MB. The visible form labels include CR, Aadhaar, Rental Agreement, and Affidavit. This snapshot records only the fields and file constraints visible on the official pages; it does not infer eligibility, fees, or approval timelines.

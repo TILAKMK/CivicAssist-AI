@@ -33,5 +33,5 @@ def mask_sensitive(text: str) -> str:
     """Mask potential API keys or secrets in logs."""
     if not text:
         return ""
-    # Mask AIza... or gsk_ or generic 32+ char hex/base64 strings
-    return re.sub(r"AIza[0-9A-Za-z-_]{35}", "[MASKED_API_KEY]", text)
+    text = re.sub(r"AIza[0-9A-Za-z-_]{35}", "[MASKED_API_KEY]", text)
+    return re.sub(r"gsk_[0-9A-Za-z]{20,}", "[MASKED_API_KEY]", text)

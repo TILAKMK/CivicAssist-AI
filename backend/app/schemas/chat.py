@@ -56,6 +56,8 @@ class ChatRequest(BaseModel):
 class SourceItem(BaseModel):
     """Traceable municipal source reference."""
     source: str
+    document_id: Optional[str] = None
+    chunk_id: Optional[str] = None
     page: Optional[int] = None
     row: Optional[int] = None
     category: Optional[str] = None
@@ -72,6 +74,7 @@ class RetrievedChunk(BaseModel):
     score: float
     page: Optional[int] = None
     row: Optional[int] = None
+    source_url: Optional[str] = None
 
 
 class ChatResponse(BaseModel):

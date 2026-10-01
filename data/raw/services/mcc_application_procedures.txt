@@ -1,0 +1,15 @@
+SOURCE: https://mysurucitycorporation.co.in/WebSiteMysuru/ApplicationProcedures.aspx
+SOURCE_TITLE: Mysuru City Corporation Application Procedure
+RETRIEVED_AT: 2026-09-30
+
+The official Mysuru City Corporation Application Procedure page lists these public application categories:
+- Mutation (ಆಸ್ತಿ ವರ್ಗಾವಣೆ)
+- Trade License (ವ್ಯಾಪಾರ ಪರವಾನಿಗೆ)
+- Building License (ಕಟ್ಟಡ ಪರವಾನಿಗೆ)
+- Property Registration (ಆಸ್ತಿ ನೋಂದಣಿ)
+- Property Amalgamation (ಆಸ್ತಿ ಒಟ್ಟುಗೂಡುವಿಕೆ)
+- Building License (Sakala) (ಕಟ್ಟಡ ಪರವಾನಿಗೆ (ಸಕಾಲ))
+- Birth and Death Certificate Modification (ಜನನ ಮರಣ ತಿದ್ದುಪಡಿ ಪ್ರಮಾಣಪತ್ರ)
+- New Water Tap and UGD Connection (ಹೊಸ ನಳದ ಮತ್ತು ಒಳಚರಂಡಿ)
+
+This snapshot records the categories shown by the official page. It does not infer requirements, fees, or timelines that are not present in the extracted page content.

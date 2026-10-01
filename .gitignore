@@ -8,6 +8,7 @@ __pycache__/
 # Environment files
 .env
 .env.local
+node_modules/
 
 # Virtual environments
 venv/

@@ -1,4 +1,4 @@
-# CivicAssist AI
+# CivicAssist-AI
 
 CivicAssist AI is a grounded municipal-services assistant for Mysuru. Citizens can ask questions about public services, wards, property tax, trade licenses, waste management, emergency contacts, and other civic information.
 

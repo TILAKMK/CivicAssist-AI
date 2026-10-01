@@ -51,9 +51,6 @@ npm install
 
 The frontend uses `/api` by default. For local development, set the backend URL when Vite is not proxying requests:
 
-```env
-VITE_API_BASE_URL=http://127.0.0.1:8000/api
-```
 
 ## Run Locally
 
